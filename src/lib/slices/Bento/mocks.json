@@ -1,0 +1,112 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Introducing a new way of creating dynamic content that leaves everything else in the dust.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"bento": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "heading3",
+											"content": {
+												"text": "Scared"
+											}
+										}
+									]
+								}
+							],
+							[
+								"body",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Occaecat et laborum tempor nostrud dolor et excepteur quis ex cupidatat nisi ipsum. Excepteur nulla dolore id magna sint laborum anim id."
+											}
+										}
+									]
+								}
+							],
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+										"width": 3168,
+										"height": 4752
+									},
+									"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+									"width": 3168,
+									"height": 4752,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"credits": null,
+									"alt": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"wide",
+								{
+									"__TYPE__": "BooleanContent",
+									"value": false
+								}
+							]
+						]
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "The new\nGold Standard.",
+							"spans": [
+								{
+									"type": "em",
+									"start": 8,
+									"end": 21
+								}
+							]
+						},
+						"direction": "ltr"
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

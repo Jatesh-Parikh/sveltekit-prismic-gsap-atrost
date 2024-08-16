@@ -1,0 +1,166 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Second"
+						}
+					}
+				]
+			},
+			"image": {
+				"url": "https://images.unsplash.com/photo-1704960945318-a79f73a55e8a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyM3x8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIzNzQzNTE4fDA&ixlib=rb-4.0.3&q=85",
+				"alt": "a knife and two lemons on a reflective surface",
+				"origin": {
+					"id": "jwL6-kJzpEA",
+					"url": "https://images.unsplash.com/photo-1704960945318-a79f73a55e8a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyM3x8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIzNzQzNTE4fDA&ixlib=rb-4.0.3&q=85",
+					"width": 6000,
+					"height": 4000
+				},
+				"width": 6000,
+				"height": 4000,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"icon": {
+				"__TYPE__": "FieldContent",
+				"value": "gear",
+				"type": "Select"
+			},
+			"subheading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading3",
+						"content": {
+							"text": "Harder"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Consequat incididunt pariatur consectetur cupidatat commodo fugiat."
+						}
+					}
+				]
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com"
+				}
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "operation",
+				"type": "Text"
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "reverse",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Seeing"
+						}
+					}
+				]
+			},
+			"image": {
+				"__TYPE__": "ImageContent",
+				"url": "https://images.unsplash.com/photo-1704960945989-3aef8ee6aa2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIzNzQzNTE4fDA&ixlib=rb-4.0.3&q=85",
+				"alt": "a couple of lemons sitting on top of a table",
+				"origin": {
+					"id": "RVo8fWNBBvQ",
+					"url": "https://images.unsplash.com/photo-1704960945989-3aef8ee6aa2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIzNzQzNTE4fDA&ixlib=rb-4.0.3&q=85",
+					"width": 6000,
+					"height": 4000
+				},
+				"width": 6000,
+				"height": 4000,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"thumbnails": {}
+			},
+			"icon": {
+				"__TYPE__": "FieldContent",
+				"value": "cycle",
+				"type": "Select"
+			},
+			"subheading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading3",
+						"content": {
+							"text": "Composed"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Esse consequat est sunt ex."
+						}
+					}
+				]
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io"
+				}
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "root",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

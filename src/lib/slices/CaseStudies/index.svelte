@@ -8,7 +8,7 @@
 	export let slice: Content.CaseStudiesSlice;
 
 	/** @type {import("@prismicio/client").Content.CaseStudyDocument[]} */
-	export let caseStudies = [];
+	export let caseStudies: any = [];
 </script>
 
 <Bounded data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
@@ -33,12 +33,9 @@
 						<PrismicRichText field={caseStudy.data.description} />
 					</div>
 
-					<PrismicLink
-						document={caseStudy}
-						class="z-10 after:absolute after:inset-0 hover:underline"
-					>
+					<div class="z-10 after:absolute after:inset-0 hover:underline">
 						Read <PrismicText field={caseStudy.data.company} /> case study
-					</PrismicLink>
+					</div>
 				</div>
 				<div class={clsx('relative lg:col-span-2', index % 2 && 'md:-order-1')}>
 					<div class="image-glow -bottom-8 -left-4 bg-orange-500"></div>
